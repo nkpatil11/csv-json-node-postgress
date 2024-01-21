@@ -4,7 +4,7 @@
   "description": "kep-assignment",
   "main": "index.js",
   "scripts": {
-    "dev": "nodemon --exec babel-node index.js",
+    "start:dev": "nodemon --exec babel-node index.js",
     "create": "node ./db/index createTables",
     "test": "echo \"Error: no test specified\" && exit 1",
     "lint": "eslint .  --ext .js",
